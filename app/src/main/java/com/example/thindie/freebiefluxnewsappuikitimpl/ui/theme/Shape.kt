@@ -1,6 +1,8 @@
 package com.example.thindie.freebiefluxnewsappuikitimpl.ui.theme
 
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.ui.unit.dp
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
 
-val commonShape = RoundedCornerShape(size = 12.dp)
+
+val commonShape
+@Composable get() = MaterialTheme.shapes.small
