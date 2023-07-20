@@ -1,7 +1,7 @@
 package com.example.thindie.freebiefluxnewsappuikitimpl.navigationdestinations
 
 data class NewsDestination(override val route: String) : Destination
-
+val splashScreen = NewsDestination("splash")
 val onBoarding = NewsDestination("onboard")
 val welcome = NewsDestination("welcome")
 val signIn = NewsDestination("signIn")
