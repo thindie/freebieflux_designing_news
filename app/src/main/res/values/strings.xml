@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">FreebieFluxNewsAppUiKitImpl</string>
     <string name="button_label_next">Next</string>
+    <string name="label_search">Search</string>
+    <string name="title_welcome_back">Welcome Back 👋</string>
+    <string name="body_welcome_back">I am happy to see you again. You can continue where you left off by logging in</string>
 </resources>
