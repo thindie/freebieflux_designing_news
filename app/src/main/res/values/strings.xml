@@ -4,4 +4,6 @@
     <string name="label_search">Search</string>
     <string name="title_welcome_back">Welcome Back 👋</string>
     <string name="body_welcome_back">I am happy to see you again. You can continue where you left off by logging in</string>
+    <string name="onboarding_header">First to know</string>
+    <string name="onboarding_body">All news in one place, be the first to know last news</string>
 </resources>
