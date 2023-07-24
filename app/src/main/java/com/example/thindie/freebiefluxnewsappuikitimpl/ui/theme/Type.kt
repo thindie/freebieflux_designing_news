@@ -30,7 +30,7 @@ val Typography = Typography(
         fontSize = 16.sp,
         lineHeight = 32.sp,
         fontFamily = FontFamily(Font(R.font.sf_pro)),
-        fontWeight = FontWeight(500),
+
         color = Color(0xFF555A77),
 
         ),

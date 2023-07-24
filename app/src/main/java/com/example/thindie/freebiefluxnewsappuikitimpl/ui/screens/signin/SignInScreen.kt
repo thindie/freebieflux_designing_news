@@ -6,13 +6,16 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.thindie.freebiefluxnewsappuikitimpl.R
 import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.AppButton
 import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.AppInput
 import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.AppOutlinedButton
 import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.AppSimpleHeader
+import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.BottomHelpSection
 import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.InputAbleState
 import com.example.thindie.freebiefluxnewsappuikitimpl.ui.core.Page
+import com.example.thindie.freebiefluxnewsappuikitimpl.ui.theme.FreebieFluxNewsAppUiKitImplTheme
 
 @Suppress("LongParameterList")
 @Composable
@@ -21,6 +24,7 @@ fun SignInScreen(
     onClickSignInGoogle: () -> Unit,
     onClickSignInFacebook: () -> Unit,
     onClickForgotPassword: () -> Unit,
+    onRequestSignUp: () -> Unit,
     email: InputAbleState = InputAbleState(
         leadingIcon = R.drawable.icon_envelope_24_24,
         trailingIcon = null,
@@ -63,5 +67,24 @@ fun SignInScreen(
         ) {
             onClickSignInFacebook()
         }
+        BottomHelpSection(
+            question = R.string.question_dont_have_acc,
+            action = R.string.action_sign_up
+        ) {
+            onRequestSignUp()
+        }
+    }
+}
+
+@Composable
+@Preview
+fun previewSignIn(){
+    FreebieFluxNewsAppUiKitImplTheme() {
+        SignInScreen(
+            onClickSignIn = { /*TODO*/ },
+            onClickSignInGoogle = { /*TODO*/ },
+            onClickSignInFacebook = { /*TODO*/ },
+            onClickForgotPassword = { /*TODO*/ },
+            onRequestSignUp = { /*TODO*/ })
     }
 }

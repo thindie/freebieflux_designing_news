@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FreebieFluxNewsAppUiKitImpl</string>
     <string name="button_label_next">Next</string>
+    <string name="button_label_confirm">Confirm</string>
     <string name="label_search">Search</string>
     <string name="title_welcome_back">Welcome Back 👋</string>
     <string name="body_welcome_back">I am happy to see you again. You can continue where you left off by logging in</string>
@@ -11,7 +12,29 @@
     <string name="hint_password">Password</string>
     <string name="label_forgot_password">Forgot Password?</string>
     <string name="button_sign_in">Sign In</string>
+    <string name="button_sign_up">Sign Up</string>
     <string name="label_or_sign_in">Or</string>
     <string name="button_google_sign_in">Sign In with Google</string>
     <string name="button_facebook_sign_in">Sign In with Facebook</string>
+    <string name="header_forgot_password">Forgot Password 🤔</string>
+    <string name="header_forgotpassword_body">We need your email adress so we can send you the password reset code.</string>
+    <string name="header_verificationcode_title">Verification Code ✅</string>
+    <string name="header_verificationcode_body">You need to enter 4-digit code we send to your email adress.</string>
+    <string name="header_create_new_password_title">Create New Password 🔒</string>
+    <string name="question_dont_have_acc">Don\'t have an account?</string>
+    <string name="action_sign_up">" Sign Up"</string>
+    <string name="question_remember_password">Remember the password?</string>
+    <string name="action_try_again">" Try again"</string>
+    <string name="header_create_password">Create New Password 🔒</string>
+    <string name="header_create_password_body">"You can create a new password, please dont forget it too."  </string>
+    <string name="hint_username">Username</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_repeat_password">Repeat New Password</string>
+    <string name="hint_repeat_signup_password">Repeat Password</string>
+    <string name="question_already_accounted">Already have an account?</string>
+    <string name="action_sign_in">" Sign In"</string>
+    <string name="question_dont_receive">Didn’t receive an email?</string>
+    <string name="action_send_again">" Send again"</string>
+    <string name="header_welcome_nuntium">Welcome to Nuntium 👋</string>
+    <string name="header_welcome_nuntium_body">"Hello, I guess you are new around here. You can start using the application after sign up."</string>
 </resources>
